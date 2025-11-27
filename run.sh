@@ -1,8 +1,8 @@
 #!/bin/bash
 
-FILE="pypy3.11-v7.3.20.tar.gz"
+FILE="pypy3.11-v7.3.20.tar.gz" #这里需要修改成 pypy 的压缩包的名字
 TARGET_DIR="/chroot/domjudge/usr/local/lib"
-PYPY_DIR="pypy3.11-v7.3.20"
+PYPY_DIR="pypy3.11-v7.3.20" #这里也是需要修改成 pypy 的压缩包的名字
 PYPY_PATH="$TARGET_DIR/$PYPY_DIR"
 LINK_FROM="/usr/local/lib/$PYPY_DIR/bin/pypy3"
 LINK_TO="/usr/local/bin/pypy3"
